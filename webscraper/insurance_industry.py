@@ -33,6 +33,6 @@ titles=re.findall('html">(.*?)</a>',response.text)
 print(len(links))
 for link,title in zip(links,titles):
     print(title,'http://www.iachina.cn/'+link)
-    with open('web_data.csv','a',encoding='utf-8-sig') as csv:
+    with open('./data/web_data.csv','a',encoding='utf-8-sig') as csv:
         csv.write(f'{title},http://www.iachina.cn{link}\n')
 
