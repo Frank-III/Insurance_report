@@ -13,4 +13,4 @@
 1. Fix the mismatch in industry_data_old and new[✔]
 2. merge the three file into one[✔]
 3. scrape more provincial data to do visualization
-3. do some time series analysis
+3. do some time series analysis[✔]
